@@ -72,5 +72,5 @@ function App() {
     );
 }
 
-// Se exporta el componente App para que pueda ser utilizado en otros archivos, como el punto de entrada de la aplicación (index.js).
+// Se exporta el componente App para que pueda ser utilizado en otros archivos, como el punto de entrada de la aplicación (main.jsx).
 export default App;
