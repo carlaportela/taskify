@@ -1,6 +1,15 @@
 # 📝 Taskify
 
-Una aplicación de gestión de tareas (To-Do App) construida con React, que permite crear, organizar y gestionar tareas de forma simple, rápida y persistente en el navegador.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-En%20desarrollo-orange?style=flat&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=FFD62E" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+</p>
+
+Una aplicación de gestión de tareas (To-Do App) en desarrollo construida con React, que permite crear, organizar y gestionar tareas de forma simple, rápida y persistente en el navegador.
 
 ---
 
