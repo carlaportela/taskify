@@ -1,0 +1,29 @@
+{
+  "name": "taskify",
+  "version": "1.0.0",
+  "description": "Una aplicación de gestión de tareas (To-Do App) en desarrollo construida con React, que permite crear, organizar y gestionar tareas de forma simple, rápida y persistente en el navegador.",
+  "homepage": "https://github.com/carlaportela/taskify#readme",
+  "bugs": {
+    "url": "https://github.com/carlaportela/taskify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlaportela/taskify.git"
+  },
+  "license": "MIT",
+  "author": "Carla Portela Ubeira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
