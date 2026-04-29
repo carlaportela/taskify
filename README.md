@@ -13,6 +13,15 @@ Una aplicación de gestión de tareas (To-Do App) en desarrollo construida con R
 
 ---
 
+## 📸 Vista previa
+
+<p align="center">
+  <img width="531" height="322" alt="image" src="https://github.com/user-attachments/assets/5b770ed5-0e3d-46fc-b984-b0801594be00" />
+</p>
+
+
+---
+
 ## 🧠 Funcionalidades
 
 - ➕ Añadir nuevas tareas  
@@ -38,14 +47,19 @@ Una aplicación de gestión de tareas (To-Do App) en desarrollo construida con R
 ## 📁 Estructura del proyecto
 
 ```bash
-src/
-├── components/
-│ ├── TodoForm.jsx
-│ ├── TodoList.jsx
-│ ├── TodoItem.jsx
-├── App.jsx
-├── main.jsx
-├── styles.css
+taskify/
+├── src/
+│   ├── assets/
+│   │   └── logo.png
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoList.jsx
+│   │   └── TodoItem.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+├── index.html
+└── package.json
 ```
 ---
 
