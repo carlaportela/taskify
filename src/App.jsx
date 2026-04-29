@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"; // Se importan los hooks o características de React para manejar el estado y los efectos secundarios (side effects).
 import TodoForm from "./components/TodoForm"; // Se importa el componente del formulario para agregar nuevas tareas.
 import TodoList from "./components/TodoList"; //Se importa el componente que muestra la lista de tareas.
+import logo from "./assets/logo.png";
 
 // Función principal de la aplicación que renderiza la interfaz y maneja la lógica de la aplicación.
 function App() {
@@ -52,22 +53,25 @@ function App() {
 
     // Renderiza la interfaz de la aplicación en html, incluyendo el título, el formulario para agregar tareas, los botones para filtrar tareas y la lista de tareas filtradas.
     return (
-        <div style={{ maxWidth: 500, margin: "0 auto" }}>
-        <h1>📝 Taskify</h1>
+        <div className="app">
+            <h1 className="title">
+                <img src={logo} alt="Taskify logo" className="logo" />
+                Taskify
+            </h1>
 
-        <TodoForm addTodo={addTodo} />
+            <TodoForm addTodo={addTodo} />
 
-        <div>
-            <button onClick={() => setFilter("all")}>Todas</button>
-            <button onClick={() => setFilter("active")}>Activas</button>
-            <button onClick={() => setFilter("completed")}>Completadas</button>
-        </div>
+            <div className="filters">
+                <button onClick={() => setFilter("all")}>Todas</button>
+                <button onClick={() => setFilter("active")}>Activas</button>
+                <button onClick={() => setFilter("completed")}>Completadas</button>
+            </div>
 
-        <TodoList
-            todos={filteredTodos}
-            toggleTodo={toggleTodo}
-            deleteTodo={deleteTodo}
-        />
+            <TodoList
+                todos={filteredTodos}
+                toggleTodo={toggleTodo}
+                deleteTodo={deleteTodo}
+            />
         </div>
     );
 }
